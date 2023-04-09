@@ -1,2 +1,3 @@
 # M-Naufal-Baihaqi_Tugas2MCI-
-soon
+Bayangkan kamu adalah seorang backend developer yang baru saja bekerja untuk sebuah perusahaan penyelenggara seminar ternama. Perusahaan ini sering bekerjasama dengan mengadakan acara-acara seperti TEDx, Tech in Asia Conference, Indonesia Knowledge Forum (IKF), Ideafest, dan sebagainya. 
+Pada suatu hari, terdapat organisasi event bernama Schematics ITS yang ingin menjalin kerjasama dengan perusahaan kamu bekerja. Mereka ingin agar dibuatkan sistem untuk melakukan berbagai hal dalam acara seminar. Sebagai anggota baru tim, kamu diberikan tugas untuk mengembangkan backend sistem seminar acara Schematics BST.
