@@ -1,23 +1,33 @@
+const { db_name } = require("./env");
+const { db_user } = require("./env");
+const { db_password } = require("./env");
+const { db_host } = require("./env");
+const { db_port } = require("./env");
+
+
 module.exports = {
   "development": {
-    "username": "root",
-    "password": null,
-    "database": "schematics_bst",
-    "host": "127.0.0.1",
-    "dialect": "mysql"
+    "username": db_user,
+    "password": db_password,
+    "database": db_name,
+    "host": db_host,
+    "dialect": "mysql",
+    "port": db_port
   },
   "test": {
-    "username": "root",
-    "password": null,
-    "database": "database_test",
-    "host": "127.0.0.1",
-    "dialect": "mysql"
+    "username": db_user,
+    "password": db_password,
+    "database": db_name,
+    "host": db_host,
+    "dialect": "mysql",
+    "port": db_port
   },
   "production": {
-    "username": "root",
-    "password": null,
-    "database": "database_production",
-    "host": "127.0.0.1",
-    "dialect": "mysql"
+    "username": db_user,
+    "password": db_password,
+    "database": db_name,
+    "host": db_host,
+    "dialect": "mysql",
+    "port": db_port
   }
 }
